@@ -162,7 +162,7 @@ python main.py --method crt --rt_start 180 --dataset cifar100 --imb_factor 100
 
 ### Method Selection
 
-- `--method`: `ce`, `mixup`, `la`, `focal`, `ldam`, `rw`, `drw`, `resample`, `scl`, `mer`, `crt`
+- `--method`: `ce`, `mixup`, `la`, `focal`, `ldam`, `scl`, `mer`, `crt`
 
 ### MER / LMS
 
@@ -178,8 +178,6 @@ python main.py --method crt --rt_start 180 --dataset cifar100 --imb_factor 100
 - `--focal_gamma`
 - `--ldam_max_m`
 - `--ldam_s`
-- `--rw_beta`
-- `--drw_start_epoch`
 - `--scl_lambda`
 - `--scl_temp`
 - `--rt_start`
