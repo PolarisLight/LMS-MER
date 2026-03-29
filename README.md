@@ -73,9 +73,7 @@ The training framework includes multiple long-tailed baselines such as:
 - LA
 - Focal Loss
 - LDAM
-- RW / DRW
-- Resample
-- SCL
+- SCL (SupCon)
 - CRT
 
 ### MER Usage Modes
