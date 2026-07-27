@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">How LMS and MER work</title>
+  <desc id="desc">A three-step workflow: measure semantic discrepancy, normalize by local structural support to obtain LMS, then use detached inverse support to weight MER and expand fragile local manifolds.</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#8A9BAD"/></marker></defs>
+  <rect width="1200" height="300" rx="24" fill="#FBFCFE"/>
+  <rect x="1" y="1" width="1198" height="298" rx="23" fill="none" stroke="#DDE5ED" stroke-width="2"/>
+  <text x="46" y="48" fill="#162436" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="30" font-weight="760">Diagnose first. Correct only where support is weak.</text>
+  <g transform="translate(46 86)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <g>
+      <rect width="310" height="164" rx="18" fill="#EAF5FA" stroke="#B8DCEB"/>
+      <circle cx="54" cy="50" r="18" fill="#1A9CCC"/><circle cx="87" cy="36" r="9" fill="#1A9CCC"/><circle cx="96" cy="69" r="11" fill="#1A9CCC"/><circle cx="57" cy="87" r="8" fill="#E65358"/>
+      <text x="126" y="47" fill="#176C91" font-size="17" font-weight="750">01 · SEMANTIC</text>
+      <text x="126" y="72" fill="#176C91" font-size="17" font-weight="750">DISCREPANCY</text>
+      <text x="24" y="124" fill="#32465C" font-size="18">Compare the sample prediction</text>
+      <text x="24" y="148" fill="#32465C" font-size="18">with local semantic consensus.</text>
+    </g>
+    <path d="M326 82H375" stroke="#8A9BAD" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g transform="translate(390 0)">
+      <rect width="310" height="164" rx="18" fill="#F4F7FA" stroke="#D6E0E8"/>
+      <circle cx="67" cy="62" r="42" fill="none" stroke="#8A9BAD" stroke-width="2" stroke-dasharray="6 6"/><circle cx="67" cy="62" r="9" fill="#E65358"/><circle cx="45" cy="44" r="7" fill="#1A9CCC"/><circle cx="88" cy="38" r="7" fill="#1A9CCC"/><circle cx="93" cy="79" r="7" fill="#1A9CCC"/>
+      <text x="126" y="47" fill="#53677B" font-size="17" font-weight="750">02 · LOCAL</text>
+      <text x="126" y="72" fill="#53677B" font-size="17" font-weight="750">SUPPORT → LMS</text>
+      <text x="24" y="124" fill="#32465C" font-size="18">High discrepancy under weak</text>
+      <text x="24" y="148" fill="#32465C" font-size="18">support signals fragility.</text>
+    </g>
+    <path d="M716 82H765" stroke="#8A9BAD" stroke-width="2.5" marker-end="url(#arrow)"/>
+    <g transform="translate(780 0)">
+      <rect width="310" height="164" rx="18" fill="#FCEDEE" stroke="#F0C4C7"/>
+      <path d="M28 86C49 35 101 27 111 62C119 92 83 111 42 108Z" fill="#F8D5D7" stroke="#E65358" stroke-width="2"/><circle cx="54" cy="86" r="8" fill="#E65358"/><circle cx="78" cy="57" r="8" fill="#E65358"/><circle cx="101" cy="78" r="8" fill="#E65358"/>
+      <text x="126" y="47" fill="#B83C43" font-size="17" font-weight="750">03 · MER</text>
+      <text x="126" y="72" fill="#B83C43" font-size="17" font-weight="750">EXPANSION</text>
+      <text x="24" y="124" fill="#32465C" font-size="18">Detached inverse support weights</text>
+      <text x="24" y="148" fill="#32465C" font-size="18">correction without gaming LMS.</text>
+    </g>
+  </g>
+</svg>
