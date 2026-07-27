@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">LMS-MER — Local Manifold Sensitivity and Regularization</title>
+  <desc id="desc">A light academic hero showing LMS diagnosing a fragile tail sample and MER restoring its local manifold.</desc>
+  <defs>
+    <linearGradient id="manifold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#D9EEF8"/><stop offset=".55" stop-color="#E2F3EF"/><stop offset="1" stop-color="#FBE3E3"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#75879A"/></marker>
+  </defs>
+  <rect width="1200" height="400" rx="28" fill="#FBFCFE"/>
+  <rect x="1" y="1" width="1198" height="398" rx="27" fill="none" stroke="#DDE5ED" stroke-width="2"/>
+  <path d="M0 322C212 280 382 354 574 322C792 286 982 322 1200 255V400H0Z" fill="#F1F5F9"/>
+  <path d="M558 30V370" stroke="#DFE6ED"/>
+
+  <g transform="translate(54 48)">
+    <text x="0" y="0" fill="#617285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" font-weight="700" letter-spacing="2.2">ACM MM ’26 · LONG-TAILED RECOGNITION</text>
+    <text x="0" y="82" fill="#162436" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="72" font-weight="800" letter-spacing="-3">LMS<tspan fill="#E65358">·</tspan>MER</text>
+    <text x="0" y="130" fill="#32465C" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="650">Local Manifold Sensitivity</text>
+    <text x="0" y="164" fill="#32465C" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="26" font-weight="650">&amp; Manifold Expansion Regularization</text>
+    <text x="0" y="222" fill="#617285" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="20">Diagnose geometric fragility. Restore local support.</text>
+    <g transform="translate(0 270)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700">
+      <rect width="148" height="38" rx="19" fill="#EAF5FA" stroke="#B8DCEB"/><text x="74" y="25" text-anchor="middle" fill="#176C91">LABEL-FREE LMS</text>
+      <rect x="160" width="170" height="38" rx="19" fill="#FCEDEE" stroke="#F0C4C7"/><text x="245" y="25" text-anchor="middle" fill="#B83C43">PLUG-IN MER</text>
+      <rect x="342" width="150" height="38" rx="19" fill="#EAF5F2" stroke="#BFE1D9"/><text x="417" y="25" text-anchor="middle" fill="#26796D">LOCAL SUPPORT</text>
+    </g>
+  </g>
+
+  <g transform="translate(592 32)">
+    <text x="0" y="18" fill="#617285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="700" letter-spacing="1.4">DIAGNOSE</text>
+    <text x="314" y="18" fill="#617285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="700" letter-spacing="1.4">EXPAND</text>
+    <path d="M14 222C94 92 194 108 258 204C334 319 438 294 562 150" fill="none" stroke="url(#manifold)" stroke-width="74" stroke-linecap="round"/>
+    <path d="M14 222C94 92 194 108 258 204C334 319 438 294 562 150" fill="none" stroke="#8BA0B3" stroke-width="2"/>
+    <g fill="#1A9CCC">
+      <circle cx="88" cy="182" r="9"/><circle cx="112" cy="155" r="8"/><circle cx="136" cy="176" r="10"/><circle cx="158" cy="148" r="8"/><circle cx="177" cy="186" r="9"/><circle cx="116" cy="207" r="8"/><circle cx="151" cy="214" r="8"/><circle cx="196" cy="160" r="8"/><circle cx="191" cy="209" r="7"/>
+    </g>
+    <circle cx="159" cy="182" r="54" fill="none" stroke="#E65358" stroke-width="2.5" stroke-dasharray="7 7"/>
+    <circle cx="159" cy="182" r="12" fill="#E65358" stroke="#FFFFFF" stroke-width="3"/>
+    <path d="M159 116V79" stroke="#E65358" stroke-width="2"/>
+    <rect x="103" y="46" width="112" height="32" rx="16" fill="#FCEDEE" stroke="#F0C4C7"/><text x="159" y="67" text-anchor="middle" fill="#B83C43" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="700">HIGH LMS</text>
+    <path d="M241 182H304" stroke="#75879A" stroke-width="2.5" marker-end="url(#arrow)"/><text x="272" y="165" text-anchor="middle" fill="#617285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700">MER</text>
+    <path d="M345 232C382 161 455 122 535 140C549 177 530 230 479 255C427 280 374 266 345 232Z" fill="#FCEDEE" stroke="#E65358" stroke-width="2"/>
+    <g fill="#E65358"><circle cx="385" cy="223" r="10"/><circle cx="422" cy="179" r="11"/><circle cx="468" cy="159" r="9"/><circle cx="505" cy="189" r="10"/><circle cx="465" cy="229" r="10"/><circle cx="513" cy="237" r="8"/><circle cx="420" cy="237" r="8"/></g>
+    <g fill="#1A9CCC" opacity=".72"><circle cx="372" cy="123" r="7"/><circle cx="515" cy="107" r="8"/><circle cx="550" cy="274" r="7"/><circle cx="336" cy="276" r="8"/></g>
+    <path d="M435 282V316" stroke="#2B9D8F" stroke-width="2"/><rect x="361" y="316" width="148" height="34" rx="17" fill="#EAF5F2" stroke="#BFE1D9"/><text x="435" y="338" text-anchor="middle" fill="#26796D" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" font-weight="700">RESTORED SUPPORT</text>
+    <g transform="translate(8 366)" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14"><circle cx="7" cy="0" r="6" fill="#1A9CCC"/><text x="21" y="5" fill="#617285">HEAD NEIGHBOR</text><circle cx="166" cy="0" r="6" fill="#E65358"/><text x="180" y="5" fill="#617285">TAIL SAMPLE</text></g>
+  </g>
+</svg>
