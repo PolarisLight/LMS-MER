@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">LMS-MER results at a glance</title>
+  <desc id="desc">MER improves 41 of 44 CIFAR-LT baseline-setting pairs, adds 6.7 points to Focal few-shot accuracy on ImageNet-LT, and 3.6 points to CE accuracy on iNaturalist 2018.</desc>
+  <rect width="1200" height="260" rx="24" fill="#F7FAFC"/>
+  <rect x="1" y="1" width="1198" height="258" rx="23" fill="none" stroke="#DDE5ED" stroke-width="2"/>
+  <g transform="translate(46 34)">
+    <text x="0" y="0" fill="#617285" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="16" font-weight="700" letter-spacing="1.5">PAPER RESULTS · ACCURACY POINTS</text>
+    <text x="0" y="42" fill="#162436" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif" font-size="30" font-weight="760">Consistent gains where local support is weakest</text>
+  </g>
+  <g transform="translate(46 112)" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,sans-serif">
+    <g>
+      <rect width="338" height="112" rx="18" fill="#FFFFFF" stroke="#DDE5ED"/>
+      <text x="24" y="46" fill="#176C91" font-size="38" font-weight="800">41 / 44</text>
+      <text x="24" y="76" fill="#32465C" font-size="18" font-weight="650">CIFAR-LT pairs improved</text>
+      <text x="24" y="99" fill="#75879A" font-size="15">11 baselines · 4 imbalance settings</text>
+    </g>
+    <g transform="translate(360 0)">
+      <rect width="338" height="112" rx="18" fill="#FFFFFF" stroke="#DDE5ED"/>
+      <text x="24" y="46" fill="#B83C43" font-size="38" font-weight="800">+6.7</text>
+      <text x="24" y="76" fill="#32465C" font-size="18" font-weight="650">ImageNet-LT Few accuracy</text>
+      <text x="24" y="99" fill="#75879A" font-size="15">Focal: 11.4 → 18.1</text>
+    </g>
+    <g transform="translate(720 0)">
+      <rect width="338" height="112" rx="18" fill="#FFFFFF" stroke="#DDE5ED"/>
+      <text x="24" y="46" fill="#26796D" font-size="38" font-weight="800">+3.6</text>
+      <text x="24" y="76" fill="#32465C" font-size="18" font-weight="650">iNaturalist 2018 accuracy</text>
+      <text x="24" y="99" fill="#75879A" font-size="15">CE: 57.0 → 60.6</text>
+    </g>
+  </g>
+</svg>
